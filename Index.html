@@ -9,13 +9,34 @@
     <link rel="shortcut icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico"/>
     <link href="./CSS/estilo.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-secondary">
     <header>
-        <div class="container-fluid p-5 bg-danger text-white text-center">
-            <h1 id="t1">POK&Eacute;MON</h1>
-            <img src="./IMG/logoball.jfif" alt="Error 404 not found" id="logo">
+        <div class="container-fluid text-light text-center shadow p-4 mb-4 bg-dark">
+            <h1 class="col-12">POK&Eacute;MON</h1>
+
+            <div class="offcanvas offcanvas-start bg-secondary" id="demo">
+                <div class="offcanvas-header bg-dark text-white">
+                  <h1 class="offcanvas-title">MENÚ</h1>
+                </div>
+                <div class="offcanvas-body">
+                  <p><a href="./Index.html" class="text-white">HOMEPAGE</a></p>
+                  <p>JUEGOS</p>
+                  <p>SERIE</p>
+                  <p>PELÍCULAS</p>
+                </div>
+              </div>
+              <div class="btn text-light col-12 container-fluid" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <img src="./IMG/menu.png" class="col-1 float-start bg-secondary">
+              </div>
         </div>
     </header>
+
+    <h1><strong><u>¿QU&Eacute; ES POKEMON?</u></strong></h1>
+    
+    <img src="IMG/portada.jpeg" class="col-3 container" style="float: left;">
+    Pokemon es una franquicia de medios que originalmente comenzó como un videojuego RPG, pero debido a su popularidad ha logrado expandirse a otros medios de entretenimiento como series de televisión, películas, juegos de cartas, ropa, entre otros, convirtiéndose en una marca que es reconocida en el mercado mundial.</span>
+    <span>Fue creado originalmente en 1996 por Satoshi Tajiri, Ken Sugimori, GameFreak y Nintendo.</span>
+       
 
 </body>
 </html>
